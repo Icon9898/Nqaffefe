@@ -4,6 +4,7 @@ wd, hg = 1350, 800 # Размеры окна
 c = Canvas(width = wd, height = hg, bg = '#000000') # Окно
 m.title('Викторина по математике') # Название окна
 
+
 from random import randint # Добавление рандома
 import time # Добавление времени
 words = open ('NACkjdma.txt','r').readlines() # Список слов
